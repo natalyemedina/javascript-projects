@@ -1,5 +1,5 @@
 // Run this sample code as-is and examine the output. 
-// Should the shuttle have launched? No,because of insufficient fuel warning.
+// Should the shuttle have launched? No, because of insufficient fuel warning.
 // Did it? Yes
 // Do not worry about fixing the code yet, we will do that in the next series of exercises.
 
