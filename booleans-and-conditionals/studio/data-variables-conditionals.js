@@ -20,9 +20,9 @@ let liftOff = true;
 // add logic below to verify total number of astronauts for shuttle launch does not exceed 7
 
 if (astroCount <= 7) {
-    console.log("Total number of astronauts within limit.");
+    console.log("Number of astronauts does not exceed 7.");
 } else {
-    console.log("Total number of astronauts exceeds limit.");
+    console.log("Number astronauts exceeds 7.");
 }
 
 // add logic below to verify all astronauts are ready
@@ -36,17 +36,17 @@ if (astroStatus === "ready") {
 // add logic below to verify the total mass does not exceed the maximum limit of 850000
 
 if (totalKg < maxMassLimit) {
-    console.log("Total mass in kg within max limit.");
+    console.log("Total mass is less than maximum mass limit of 850000.");
 } else {
-    console.log("Total mass in kg exceeds limit.");
+    console.log("Total mass exceeds or equals maximum mass limit of 850000.");
 }
 
 // add logic below to verify the fuel temperature is within the appropriate range of -150 and -300
 
 if (fuelCelsius >= -300 || fuelCelsius <= -150) {
-    console.log("Fuel temperature is within range.");
+    console.log("Fuel temperature is within range of -300°C and -150°C.");
 } else {
-    console.log("Fuel celsius is not within range.");
+    console.log("Fuel temperature is not within range of -300°C and -150°C.");
 }    
 
 // add logic below to verify the fuel level is at 100%
